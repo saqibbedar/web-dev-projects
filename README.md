@@ -1,25 +1,26 @@
-# Web Projects 2
+# Web Development Projects
 
-Welcome to the Web Development Projects 2 Collection! This repository is a collection of various beginner-friendly web development projects, each located in its dedicated folder. Whether you're just starting in web development or looking for hands-on projects to enhance your skills, this collection has something for you.
+Welcome to the Web Development Projects Collection! This repository is a collection of various beginner-friendly and advanced web development projects, each located in its dedicated folder. Whether you're just starting in web development or looking for hands-on projects to enhance your skills, this collection has something for you.
 
 ## Projects with Live Preview
 
 | S.No | Project name | Preview Link |
 |:-- | :-- | :-- |
-| 1. | Drag and Drop | [Preview →](https://saqibbedar.github.io/web-projects-2/drag-and-drop/index.html) |
-| 2. | Code Editor | [Preview →](https://saqibbedar.github.io/web-projects-2/code-editor/index.html) |
-| 3. | Add to Cart  | [Preview →](https://saqibbedar.github.io/web-projects-2/Add-to-cart/index.html) |
-| 4. | Music Player | [Preview →](https://saqibbedar.github.io/web-projects-2/music-player/index.html) |
-| 5. | Upload Image | [Preview →](https://saqibbedar.github.io/web-projects-2/upload-img/index.html) |
-| 6. | Dark Mode | [Preview →](https://saqibbedar.github.io/web-projects-2/DarkMode/index.html) |
-| 6. | Calculator | [Preview →](https://saqibbedar.github.io/web-projects-2/Calculator/index.html) |
+| 1. | ChatGPT Clone | [Preview →](https://saqibbedar.github.io/web-dev-projects/ChatGPT-Clone/index.html) |
+| 2. | Drag and Drop | [Preview →](https://saqibbedar.github.io/web-dev-projects/drag-and-drop/index.html) |
+| 3. | Code Editor | [Preview →](https://saqibbedar.github.io/web-dev-projects/code-editor/index.html) |
+| 4. | Add to Cart  | [Preview →](https://saqibbedar.github.io/web-dev-projects/Add-to-cart/index.html) |
+| 5. | Music Player | [Preview →](https://saqibbedar.github.io/web-dev-projects/music-player/index.html) |
+| 6. | Upload Image | [Preview →](https://saqibbedar.github.io/web-dev-projects/upload-img/index.html) |
+| 7. | Dark Mode | [Preview →](https://saqibbedar.github.io/web-dev-projects/DarkMode/index.html) |
+| 8. | Calculator | [Preview →](https://saqibbedar.github.io/web-dev-projects/Calculator/index.html) |
 
 ## Getting Started
 
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/saqibbedar/web-projects-2
+    git clone https://github.com/saqibbedar/web-dev-projects
     ```
 
 2. Navigate to the specific project folder you're interested in.
