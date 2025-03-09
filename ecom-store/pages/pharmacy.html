@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Najeeb Pharmacy</title>
+    <link rel="stylesheet" href="../global.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header
+      id="header"
+      class="fixed top-0 left-0 w-full h-[10vh] bg-white border-b flex items-center justify-between px-10 z-50"
+    >
+      <a href="../index.html">
+        <img src="../public/logo.png" class="h-11" title="Najeeb Square Mall" />
+      </a>
+
+      <h1 class="font-bold text-2xl uppercase">Najeeb Pharmacy</h1>
+
+      <a title="VIEW CART" href="./cart.html" class="flex items-center">
+        <span>PKR 21000</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 32 32"
+          fill="none"
+          color="#000000"
+          class="h-7"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M19.5556 12.3333C19.0646 12.3333 18.6667 11.9354 18.6667 11.4444C18.6667 10.7372 18.3857 8.05893 17.8856 7.55883C17.3855 7.05873 16.7073 6.77778 16 6.77778C15.2928 6.77778 14.6145 7.05873 14.1144 7.55883C13.6143 8.05893 13.3333 10.7372 13.3333 11.4444C13.3333 11.9354 12.9354 12.3333 12.4445 12.3333C11.9535 12.3333 11.5556 11.9354 11.5556 11.4444C11.5556 10.2657 12.0238 7.13524 12.8573 6.30175C13.6908 5.46825 14.8213 5 16 5C17.1788 5 18.3092 5.46825 19.1427 6.30175C19.9762 7.13524 20.4445 10.2657 20.4445 11.4444C20.4445 11.9354 20.0465 12.3333 19.5556 12.3333Z"
+            fill="currentColor"
+          ></path>
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M7.5 12C7.5 11.4477 7.94772 11 8.5 11H23.5C24.0523 11 24.5 11.4477 24.5 12V25.3333C24.5 25.8856 24.0523 26.3333 23.5 26.3333H8.5C7.94772 26.3333 7.5 25.8856 7.5 25.3333V12ZM9.5 13V24.3333H22.5V13H9.5Z"
+            fill="currentColor"
+          ></path>
+        </svg>
+      </a>
+    </header>
+
+    <section id="body" class="mt-[63px]">
+      <!-- landing page -->
+      <div
+        id="landing-page"
+        class="flex bg-zinc-100 px-10 h-[90vh] overflow-hidden"
+      >
+        <div class="w-1/2 flex flex-col justify-center">
+          <h3 class="italic text-3xl">December 2024</h3>
+          <h1 class="font-bold text-6xl my-8">SALE OF 10%</h1>
+          <p class="tracking-wider text-xl">
+            Fashion is a form of self-expression and autonomy at a particular
+            period
+          </p>
+          <a
+            href="#buy"
+            class="bg-[var(--bg)] text-white px-6 py-3 w-fit mt-10"
+            >Buy Now</a
+          >
+        </div>
+        <div class="w-1/2">
+          <img src="../public/pharmcc.png" class="h-full w-full " alt="" />
+        </div>
+      </div>
+
+      <div class="pt-2 px-10 pb-3" id="buy">
+        <h1 class="text-center font-bold text-5xl uppercase mt-10 mb-14">
+          Buy Your Favorite
+        </h1>
+        <div class="flex gap-5 flex-wrap justify-center">
+          <div class="w-[330px] border">
+            <div class="img-handler">
+              <img src="../public/pharm.avif" class="aspect-square w-full object-center object-center" alt="img" />
+            </div>
+            <div class="flex flex-col gap-3 px-4 py-5">
+              <h1 class="text-2xl font-bold ">Lorem ipsum</h1>
+              <h1 class="font-bold">Rs. 2000</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore aperiam adipisci animi minus...</p>
+              <button onclick="addToCart()" class="bg-[var(--bg)] text-white font-semibold w-fit px-5 py-3">Add To Cart</button>
+            </div>
+          </div>
+          <div class="w-[330px] border">
+            <div class="img-handler">
+              <img src="../public/pharm.avif" class="aspect-square w-full object-center object-center" alt="img" />
+            </div>
+            <div class="flex flex-col gap-3 px-4 py-5">
+              <h1 class="text-2xl font-bold ">Lorem ipsum</h1>
+              <h1 class="font-bold">Rs. 2000</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore aperiam adipisci animi minus...</p>
+              <button onclick="addToCart()" class="bg-[var(--bg)] text-white font-semibold w-fit px-5 py-3">Add To Cart</button>
+            </div>
+          </div>
+          <div class="w-[330px] border">
+            <div class="img-handler">
+              <img src="../public/pharm.avif" class="aspect-square w-full object-center object-center" alt="img" />
+            </div>
+            <div class="flex flex-col gap-3 px-4 py-5">
+              <h1 class="text-2xl font-bold ">Lorem ipsum</h1>
+              <h1 class="font-bold">Rs. 2000</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore aperiam adipisci animi minus...</p>
+              <button onclick="addToCart()" class="bg-[var(--bg)] text-white font-semibold w-fit px-5 py-3">Add To Cart</button>
+            </div>
+          </div>
+          <div class="w-[330px] border">
+            <div class="img-handler">
+              <img src="../public/pharm.avif" class="aspect-square w-full object-center object-center" alt="img" />
+            </div>
+            <div class="flex flex-col gap-3 px-4 py-5">
+              <h1 class="text-2xl font-bold ">Lorem ipsum</h1>
+              <h1 class="font-bold">Rs. 2000</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore aperiam adipisci animi minus...</p>
+              <button onclick="addToCart()" class="bg-[var(--bg)] text-white font-semibold w-fit px-5 py-3">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      id="footer"
+      class="bg-zinc-200 font-semibold flex gap-2 justify-center items-center h-16"
+    >
+      <!-- dynamic footer will go here -->
+    </footer>
+    <script src="../global.js"></script>
+  </body>
+</html>

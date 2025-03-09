@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="../global.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header
+      id="header"
+      class="fixed top-0 left-0 w-full h-[10vh] bg-white border-b flex items-center justify-between px-10"
+    >
+      <a href="../index.html">
+        <img src="../public/logo.png" class="h-11" title="Najeeb Square Mall" />
+      </a>
+
+      <h1 class="font-bold text-2xl uppercase">Shopping Cart</h1>
+
+        <div title="VIEW CART" class="flex items-center">
+        <span>Total: PKR 21000</span>
+      </div>
+    </header>
+
+    <section id="body" class="mt-[63px]">
+      <div class="flex flex-col py-2 px-10">
+        <div class="grid grid-cols-6 py-3 border-b">
+          <h3 class="font-semibold">Items</h3>
+          <h3 class="font-semibold">Title</h3>
+          <h3 class="font-semibold">Price</h3>
+          <h3 class="font-semibold">Quantity</h3>
+          <h3 class="font-semibold">Total</h3>
+          <h3 class="font-semibold">Remove</h3>
+        </div>
+        <div class="grid grid-cols-6 items-center py-3 border-b">
+          <img class="h-10 rounded" src="../public/tshirt.png" alt="" />
+          <h3>Grey T-Shirt</h3>
+          <div>Rs. 2000</div>
+          <div>2</div>
+          <div>Rs. 4000</div>
+          <div>x</div>
+        </div>
+        <div class="grid grid-cols-6 items-center py-3 border-b">
+          <img class="h-10 rounded" src="../public/shoe.png" alt="" />
+          <h3>Leather Oxford Shoes</h3>
+          <div>Rs. 7000</div>
+          <div>1</div>
+          <div>Rs. 7000</div>
+          <div>x</div>
+        </div>
+        <div class="grid grid-cols-6 items-center py-3 border-b">
+          <img class="h-10 rounded" src="../public/handbag.png" alt="" />
+          <h3>Handbag Brown</h3>
+          <div>Rs. 10000</div>
+          <div>1</div>
+          <div>Rs. 10000</div>
+          <div>x</div>
+        </div>
+
+        <div class="mt-10 flex flex-col gap-3 mb-4">
+          <h3 class="font-bold text-xl mb-2">Cart Total</h3>
+          <div class="flex justify-between">
+            <h5>Subtotal</h5>
+            <span>Rs. 21000</span>
+          </div>
+          <div class="flex justify-between">
+            <h5>Delivery Fee</h5>
+            <span>Rs. 0</span>
+          </div>
+          <div class="flex justify-between">
+            <h5>Total</h5>
+            <span>Rs. 21000</span>
+          </div>
+          <div class="text-center">
+            <button onclick="checkout()"
+              class="bg-[var(--bg)] text-white px-5 py-3 rounded-md font-medium"
+            >
+              PLACE ORDER
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      id="footer"
+      class="bg-zinc-200 flex gap-2 justify-center items-center h-16"
+    >
+      <!-- dynamic footer will go here -->
+    </footer>
+    <script src="../global.js"></script>
+  </body>
+</html>

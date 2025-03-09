@@ -1,0 +1,7 @@
+:root{
+    --bg: #ce1648;
+}
+html, body {
+    scroll-behavior: smooth;
+    scroll-padding: 30px;
+}

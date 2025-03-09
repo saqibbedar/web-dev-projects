@@ -7,13 +7,14 @@ Welcome to the Web Development Projects Collection! This repository is a collect
 | S.No | Project name | Preview Link |
 |:-- | :-- | :-- |
 | 1. | ChatGPT Clone | [Preview →](https://saqibbedar.github.io/web-dev-projects/ChatGPT-Clone/index.html) |
-| 2. | Drag and Drop | [Preview →](https://saqibbedar.github.io/web-dev-projects/drag-and-drop/index.html) |
-| 3. | Code Editor | [Preview →](https://saqibbedar.github.io/web-dev-projects/code-editor/index.html) |
-| 4. | Add to Cart  | [Preview →](https://saqibbedar.github.io/web-dev-projects/Add-to-cart/index.html) |
-| 5. | Music Player | [Preview →](https://saqibbedar.github.io/web-dev-projects/music-player/index.html) |
-| 6. | Upload Image | [Preview →](https://saqibbedar.github.io/web-dev-projects/upload-img/index.html) |
-| 7. | Dark Mode | [Preview →](https://saqibbedar.github.io/web-dev-projects/DarkMode/index.html) |
-| 8. | Calculator | [Preview →](https://saqibbedar.github.io/web-dev-projects/Calculator/index.html) |
+| 2. | JS-Online-Game | [Preview →](https://saqibbedar.github.io/web-dev-projects/js-online-game/index.html) |
+| 3. | E-Commerce Store | [Preview →](https://saqibbedar.github.io/web-dev-projects/ecom-store/index.html) |
+| 4. | Code Editor | [Preview →](https://saqibbedar.github.io/web-dev-projects/code-editor/index.html) |
+| 5. | Add to Cart  | [Preview →](https://saqibbedar.github.io/web-dev-projects/Add-to-cart/index.html) |
+| 6. | Music Player | [Preview →](https://saqibbedar.github.io/web-dev-projects/music-player/index.html) |
+| 7. | Upload Image | [Preview →](https://saqibbedar.github.io/web-dev-projects/upload-img/index.html) |
+| 8. | Dark Mode | [Preview →](https://saqibbedar.github.io/web-dev-projects/DarkMode/index.html) |
+| 9. | Calculator | [Preview →](https://saqibbedar.github.io/web-dev-projects/Calculator/index.html) |
 
 ## Getting Started
 
